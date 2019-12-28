@@ -9,10 +9,11 @@ This command compiles the Java program
 This commd runs the conversion program. It takes in the ***inputFile*** and outputs a file with pixels converted to rems to ***outPutFile***.
 
 # Functionalities
-- Avoid px-to-rem conversion when the pixel is part of media query \n e.g   @media (min-width: 320px) { ... }
+- Avoid px-to-rem conversion when the pixel is part of media query\
+e.g   @media (min-width: 320px) { ... }
 
-- Handles conversions of pixel to rem including scenarios with multiple pixels on a single line
+- Handles conversions of pixel to rem including scenarios with multiple pixels on a single line\
 e.g border-width: 2px 3px 1px 2px
 
-- Trailing zeros of converted pixels to rem are removed
+- Trailing zeros of converted pixels to rem are removed\
 e.g  1.0rem --> 1rem
